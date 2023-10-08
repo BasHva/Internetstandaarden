@@ -8,24 +8,6 @@ body {
   overflow-x: hidden; /* Voorkom horizontaal scrollen */
 }
 
-#scrollButton {
-  background-color: #91d4c8;
-  color: #fff;
-  padding: 5px 19px; 
-  border-color: black;
-  border-width: 5px;
-  cursor: pointer; 
-  margin: 150px;
-  position: absolute;
-  top: 50%;
-  left: 32%
-}
-
-#scrollButton:hover {
-  background-color: #0a5749;
-  transform: scale(1.6, 1.5);
-}
-
 .container a {
   text-decoration: none;
   color: rgb(0, 0, 0);
@@ -181,7 +163,7 @@ h1 {
   margin-bottom: 80px;
   margin-top: 15%;
   border: 5px solid #000000;
-  color: black;
+  color: black; 
 }
 
 h2 {
@@ -257,23 +239,22 @@ background-color: #333;
 .spanje2,
 .griekenland2,
 .portugal2 {
-  /* Andere stijlen voor .spanje2, .griekenland2 en .portugal2 blijven ongewijzigd */
-  height: 300px; /* Stel de hoogte van de containers in op het gewenste formaat */
-  overflow: hidden; /* Verberg eventuele overloopinhoud */
+  height: 300px; 
+  overflow: hidden; 
 }
 
 .spanje2:hover img,
 .griekenland2:hover img,
 .portugal2:hover img {
-  display: none; /* Verberg de afbeelding */
+  display: none;
 }
 
 .spanje2 h2,
 .griekenland2 h2,
 .portugal2 h2 {
   font-size: 30px;
-  margin: -5px auto -10px; /* Hiermee verplaats je de h2-tekst omhoog */
+  margin: -5px auto -10px; 
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  position: relative; /* Hiermee activeer je de positionele eigenschappen */
-  top: -12px; /* Hiermee kun je de verticale positie van de h2-tekst aanpassen */
+  position: relative; 
+  top: -12px; 
 }
