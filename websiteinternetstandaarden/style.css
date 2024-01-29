@@ -5,7 +5,7 @@ body {
   background-repeat: no-repeat;
   background-image: url(Images/IMG_40141.png);
   background-size: 100%;
-  overflow-x: hidden; /* Voorkom horizontaal scrollen */
+  overflow-x: hidden; 
 }
 
 .container a {
@@ -92,11 +92,6 @@ body {
   color: #000000;
 }
 
-.griekenland2 p,
-.griekenland2 .hidden-paragraph {
-  font-size: 15px; /* Stel de gewenste tekstgrootte in */
-  color: #000000;
-}
 
 .portugal2 {
   display: inline-block; 
@@ -122,7 +117,6 @@ body {
 .portugal2:hover {
   background-color: #056d29;
 }
-
 
 .portugal2 .hidden-paragraph {
   display: none;
@@ -153,6 +147,15 @@ h2, p {
 .portugal {
   background-image: url(Images/backgroundportugal.png);
 }
+
+.contact {
+  background-image: url(Images/contactachtergrondd2024.png);
+}
+
+.galerij {
+  background-image: url(Images/galerijachterground2024.png);
+}
+
 
 h1 {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -205,7 +208,7 @@ nav > ul > li > a {
 }
 
 .logo {
-  max-width: 25%;
+  max-width: 20%;
   height: auto;
   position: absolute;
 }
@@ -257,4 +260,106 @@ background-color: #333;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   position: relative; 
   top: -12px; 
+}
+
+section:nth-child(1) {
+  padding: 20px;
+}
+
+section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+section p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 3px;
+}
+
+section:nth-child(2) {
+  padding: 20px;
+}
+
+form label {
+  display: block;
+  font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  background-color: rgb(205, 15, 15);
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #2a48aa;
+}
+
+.hidden-paragraph p:first-of-type {
+  font-weight: bold;
+}
+
+.hidden-paragraph p:last-of-type {
+  font-size: 13px;
+}
+
+section:nth-child(2) {
+  margin-top: -110px;
+  margin-bottom: 10px; 
+  padding: 20px;
+}
+
+.gallery-section h2 {
+  font-size: 28px;
+  margin-bottom: 20px; 
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+}
+
+.gallery-item {
+  max-width: 500px;
+  margin: 20px;
+  background-color: #2db363;
+  border: 1px solid #ffffff;
+  border-radius: 11px;
+  transition: transform 0.3s ease-in-out;
+  color: #333;
+  text-transform: uppercase;
+}
+
+.gallery-item:hover {
+  transform: scale(1.05);
+}
+
+.gallery-item img {
+  max-width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.gallery-item p {
+  margin: 14px 0;
+  font-size: 16px;
+  padding: 18px;
+  background-color: rgba(255, 255, 255, 0.604);
 }
